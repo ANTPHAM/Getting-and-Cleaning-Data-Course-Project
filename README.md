@@ -36,7 +36,7 @@ mean_tidy_data.txt: an output of the analysis
 
 3.Uses descriptive activity names to name the activities in the data set: read and merge by rows two data frames in "y_train.txt" and "y_test.txt"; the output is a data frame "MergedatActivity"( 10299x1) which shows only the code for each activity; change the name of the column and merge it with "Mergedat" ; read the "activity_labels.txt" which shows descriptive activity names and replace the activities code numbers in "Mergedat".
 
-4.Appropriately labels the data set with descriptive variable names: combine by row data from "subject_train.txt" and "subject_test.txt" files; change the name of the new feature; combine the output by column with "Mergedat" data frame.
+4.Appropriately labels the data set with descriptive variable names: combine by row data from "subject_train.txt" and "subject_test.txt" files; change the name of the new feature; combine the output by column with "Mergedat" data frame; change thenames of other columns.
 
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject: create and write out the "mean_tidy_data.txt" from "Mergedat" data set.
 
